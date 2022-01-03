@@ -1,0 +1,50 @@
+.home-about-section {
+  background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7) ), url(https://raw.githubusercontent.com/AnirbanAnu2000/img-storage/main/bbra/about/about-bg.jpg) no-repeat center;
+  background-size: cover;
+  padding: 50px 0;
+}
+
+.home-about-right-content h2 {
+  font-size: 60px;
+  font-weight: 900;
+  color: #fff;
+}
+
+.home-about-right-content h5 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 26px;  
+}
+
+.home-about-right-content p {
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+
+.home-about-btn {
+  text-decoration: none;
+  background-color: transparent;
+  border: 5px solid #fff;
+  font-weight: 700;
+  font-size: 22px;
+  color: #fff;
+  transition: all ease-in-out 0.5s;
+}
+
+.home-about-btn:hover {
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+

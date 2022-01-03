@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap');
+/* font-family: 'Raleway', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Shalimar&display=swap');
+/* font-family: 'Shalimar', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+/* font-family: 'Island Moments', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+/* font-family: 'Shizuru', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Twinkle+Star&display=swap');
+/* font-family: 'Twinkle Star', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+/* font-family: 'Kalam', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+/* font-family: 'Bungee Shade', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+/* font-family: 'Creepster', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Akronim&display=swap');
+/* font-family: 'Akronim', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
+/* font-family: 'UnifrakturCook', cursive; */
+
+*{
+  font-family: 'Kalam', cursive;
+}
+
+.logo-font{
+  font-family: 'UnifrakturCook', cursive;
+}
+
+.special-font{
+  font-family: 'Akronim', cursive;
+}
+
+/* common css end */
+
+

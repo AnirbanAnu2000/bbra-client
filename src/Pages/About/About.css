@@ -1,0 +1,29 @@
+.about-banner {
+  background: url('https://raw.githubusercontent.com/AnirbanAnu2000/img-storage/main/bbra/about-page-banner.gif') no-repeat top;
+  background-size: cover;
+  height: 510px;
+  border-radius: 20px;
+}
+
+h1.about-banner-heading {
+  font-size: 100px;
+  color: rgb(255, 255, 255, .5);
+}
+
+.about-page {
+  margin-top: 80px !important;
+  margin-bottom: 80px !important;
+  background-color: #1e062e;
+  padding-top: 90px;
+  padding-bottom: 80px; 
+}
+
+@media only screen and (max-width:640px) {
+  h1.about-banner-heading {
+    font-size: 45px;
+    font-weight: 900;
+  }
+  .about-text {
+    margin-bottom: 50px;
+  }
+}

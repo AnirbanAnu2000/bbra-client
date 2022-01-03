@@ -1,0 +1,11 @@
+.product-card {
+  cursor: pointer;
+}
+
+.product-card {
+ transition: all ease 0.5s;
+}
+
+.product-card:hover {
+  transform:skewX(-3deg)
+}

@@ -1,0 +1,45 @@
+.home-page-banner-main {
+  background-color: #f7e927;
+}
+
+.banner-left-content {
+  padding-right: 50px;
+}
+
+.banner-left-content h1 {
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 60px;
+}
+
+.banner-left-content p { 
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #444;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.banner-explore-btn {
+  border: 5px solid #ccc;
+  transition: all ease 0.5s;
+}
+
+/* .banner-explore-btn:hover {
+  background-color: #fff;
+  color: #4800bb;
+  border: 5px solid #4800bb;
+  transform: scaleX(1.15);
+} */
+
+
+@media only screen and (max-width:640px) {
+  .banner-left-content h1 {
+    font-size: 32px;
+    line-height: 45px;
+  }
+
+}
+
+

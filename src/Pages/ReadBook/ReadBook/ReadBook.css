@@ -1,0 +1,7 @@
+.full-book {
+  height: 600px;
+  overflow-x: scroll;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 1px solid #999;
+}

@@ -1,0 +1,132 @@
+.header-top-contact .contact-email,
+.header-top-contact .contact-number,
+.header-top-contact .login,
+.header-top-contact .register {
+  color: #0d6efd;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.login,
+.register {
+  text-decoration: none;
+}
+
+.top-search-field {
+  font-weight: 700;
+  color: #0d6efd;
+}
+
+.top-search-field:hover {
+  background-color: #0d6efd;
+}
+
+/* .main-navigation {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#logout-btn {
+  color: #fff !important;
+}
+
+.navbar-link {
+  display: inline-block;
+  padding: 7px 15px;
+  margin-left: 10px;
+  text-decoration: none; 
+  font-size: 15px !important;
+  font-weight: 700;
+  color: #4800bb !important;
+  transition: all ease 0.5s;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  background-color: transparent;
+}
+
+.navbar-link:hover {
+  color: #4800bb !important;
+  border: 1px solid #4800bb;
+}
+
+.brand-logo {
+  font-family: 'Shalimar', cursive;
+  font-weight: 700;
+  font-size: 36px;
+  color: #4800bb !important;
+}
+
+.header-icon {
+  display: inline-block;
+  margin-left: 15px;
+  font-size: 14px;
+  width: 30px;
+  line-height: 30px;
+  border: 1px solid red;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.search-input {
+  height: 50px;
+  border-color: #aaa !important;
+  padding: 10px;
+  transition: all ease 0.5s;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.search-portion {
+  margin-left: 15px;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #4800bb !important;
+}
+
+.search-btn {
+  height: 50px;
+  border: 2px solid #aaa;
+  margin-top: -2px;
+}
+
+
+@media only screen and (max-width:640px) {
+
+  .navbar-link {
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  
+  .user-name {
+    display: block;
+    text-align: center; 
+  }
+
+  #logout-btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .header-social-link {
+    margin: 0 auto;
+  }
+
+  .header-login {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .header-register {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+
+}
+
+*/
+

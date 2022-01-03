@@ -1,0 +1,19 @@
+.not-found {
+  position: relative;
+  height: 100vh;
+}
+
+.go-to-home-btn {
+  background-color: #120881;
+  color: #fff !important;
+  font-weight: 700;
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);  
+}
+
+.go-to-home-btn:hover {
+  background-color: #035f31;
+  color: #fff !important; 
+}
