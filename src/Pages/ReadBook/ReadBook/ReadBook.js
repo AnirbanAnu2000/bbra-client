@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 import Header from '../../Shared/Header/Header';
 import './ReadBook.css';
+import Footer from '../../Shared/Footer/Footer';
 
 
 const ReadBook = () => {
@@ -43,6 +44,7 @@ const ReadBook = () => {
                 </div>
             </div>
         </div>
+        <Footer></Footer>
         </div>
     );
 };
