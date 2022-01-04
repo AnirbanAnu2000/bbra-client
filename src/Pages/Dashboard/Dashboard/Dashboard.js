@@ -8,12 +8,9 @@ import {
 import './Dashboard.css';
 import MakeAdmin from '../MakeAdmin/MakeAdmin';
 import DashboardHome from '../DashboardHome/DashboardHome';
-import Payment from '../Payment/Payment';
-import ManageAllOrders from '../ManageAllOrders/ManageAllOrders';
 import useAuth from '../../../hooks/useAuth';
 import AdminRoute from '../../Login/AdminRoute/AdminRoute';
 import Comment from '../Comment/Comment';
-import MyOrders from '../MyOrders/MyOrders';
 import AddBook from '../AddBook/AddBook';
 import AddMember from '../AddMember/AddMember';
 import ManageBooks from '../ManageBooks/ManageBooks';
@@ -36,7 +33,7 @@ const Dashboard = () => {
         <div className="col-md-2 border-end border-2 border-white" style={{paddingBottom:"100px",height:"auto"}}>
           <div className="text-center">
             <NavLink to="/home" className="text-decoration-none">
-              <h2 className='logo-font py-3 text-white'>BBRA</h2>
+              <h2 className='logo-font py-3 text-white fw-bold'>BBRA</h2>
             </NavLink>
           </div>
           <div className="dashboard-nav">
@@ -76,9 +73,6 @@ const Dashboard = () => {
               </Route>
               <Route path={`${path}/addMember`}>
                   <AddMember></AddMember>
-              </Route>
-              <Route path={`${path}/payment`}>
-                  <Payment></Payment>
               </Route>
               <Route path={`${path}/manageBooks`}>
                   <ManageBooks></ManageBooks>
