@@ -9,7 +9,7 @@ const AddMember = () => {
     const onSubmit = data => {
         console.log(data);
 
-        axios.post('http://localhost:5000/members', data)
+        axios.post('https://glacial-springs-00927.herokuapp.com/members', data)
             .then(res => {
                 if (res.data.insertedId) {
                     alert('Member added successfully!');

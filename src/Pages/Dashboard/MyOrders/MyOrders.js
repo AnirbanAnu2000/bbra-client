@@ -7,7 +7,7 @@ const MyOrders = () => {
   const [orders, setOrders] = useState([]);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/myOrders/${user.email}`)
+    fetch(`https://glacial-springs-00927.herokuapp.com/myOrders/${user.email}`)
       .then((res) => res.json())
       .then((data) => setOrders(data));
   }, [user.email]);
@@ -15,7 +15,7 @@ const MyOrders = () => {
   const handleDelete = id => {
     const proceed = window.confirm('Are you sure, you want to remove this order?');
     if(proceed) {
-      const url = `http://localhost:5000/orders/${id}`;
+      const url = `https://glacial-springs-00927.herokuapp.com/orders/${id}`;
         fetch(url, {
           method: "DELETE",
         })

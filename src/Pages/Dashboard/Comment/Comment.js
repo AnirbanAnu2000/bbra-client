@@ -11,7 +11,7 @@ const Comment = () => {
     const onSubmit = data => {
         console.log(data);
 
-        axios.post('http://localhost:5000/comment', data)
+        axios.post('https://glacial-springs-00927.herokuapp.com/comment', data)
             .then(res => {
                 if (res.data.insertedId) {
                     alert('Comment posted successfully!');

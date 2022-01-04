@@ -9,7 +9,6 @@ import Dashboard from './Pages/Dashboard/Dashboard/Dashboard';
 import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
 import About from './Pages/About/About';
 import Contact from './Pages/Contact/Contact/Contact';
-import Payment from './Pages/Dashboard/Payment/Payment';
 import NotFound from './Pages/NotFound/NotFound';
 import ReadBook from './Pages/ReadBook/ReadBook/ReadBook';
 import Books from './Pages/Books/Books/Books';
@@ -45,14 +44,11 @@ function App() {
             <Route path="/register">
               <Register></Register>
             </Route>
-            <PrivateRoute path="/readBook/:productId">
-              <ReadBook></ReadBook>
-            </PrivateRoute>
             <PrivateRoute path="/dashboard">
               <Dashboard></Dashboard>
             </PrivateRoute>
-            <PrivateRoute path="/payment">
-              <Payment></Payment>
+            <PrivateRoute path="/readBook/:productId">
+              <ReadBook></ReadBook>
             </PrivateRoute>
             <Route path="*">
               <NotFound></NotFound>

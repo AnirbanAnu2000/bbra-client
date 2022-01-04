@@ -8,7 +8,6 @@ const Header = () => {
   const { user, logout } = useAuth();
   
   const navItemStyle = {
-    fontWeight: "500",
     color: "blue",
     fontSize: "16px",
     backgroundColor: "transparent",
@@ -21,7 +20,6 @@ const Header = () => {
   }
   
   const navItemStyleForDashboard = {
-    fontWeight: "500",
     color: "#fff",
     fontSize: "16px",
     backgroundColor: "black",
@@ -83,7 +81,7 @@ const Header = () => {
               navbarScroll
             >
               <NavLink activeStyle={activeStyle} style={navItemStyle} to="/home">Home</NavLink>
-              <NavLink activeStyle={activeStyle} style={navItemStyle} to="/about">About Us</NavLink>
+              <NavLink activeStyle={activeStyle} style={navItemStyle} to="/about">About</NavLink>
               <NavLink activeStyle={activeStyle} style={navItemStyle} to="/books">Books</NavLink>
               <NavLink activeStyle={activeStyle} style={navItemStyle} to="/members">Members</NavLink>
               <NavLink activeStyle={activeStyle} style={navItemStyle} to="/contact">Contact</NavLink>

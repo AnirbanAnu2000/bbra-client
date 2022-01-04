@@ -9,7 +9,7 @@ const AddBook = () => {
     const onSubmit = data => {
         console.log(data);
 
-        axios.post('http://localhost:5000/books', data)
+        axios.post('https://glacial-springs-00927.herokuapp.com/books', data)
             .then(res => {
                 if (res.data.insertedId) {
                     alert('Book added successfully!');

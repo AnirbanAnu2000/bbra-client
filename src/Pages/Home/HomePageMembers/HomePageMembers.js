@@ -6,7 +6,7 @@ const HomePageMembers = () => {
 
     const [members, setMembers] = useState([]) 
     useEffect(() => {
-        fetch('http://localhost:5000/members')
+        fetch('https://glacial-springs-00927.herokuapp.com/members')
             .then(res => res.json())
             .then(data => setMembers(data));
     }, [])

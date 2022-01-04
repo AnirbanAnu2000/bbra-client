@@ -6,7 +6,7 @@ const HomePageComments = () => {
 
     const [comments, setComments] = useState([]) 
     useEffect(() => {
-        fetch('http://localhost:5000/comment')
+        fetch('https://glacial-springs-00927.herokuapp.com/comment')
             .then(res => res.json())
             .then(data => setComments(data));
     }, [])

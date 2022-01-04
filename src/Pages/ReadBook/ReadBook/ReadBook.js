@@ -10,7 +10,7 @@ const ReadBook = () => {
     const [book, setBook] = useState({});
 
     useEffect( () => {
-        fetch(`http://localhost:5000/books/${productId}`)
+        fetch(`https://glacial-springs-00927.herokuapp.com/books/${productId}`)
         .then(res => res.json())
         .then(data => setBook(data));
     }, []);

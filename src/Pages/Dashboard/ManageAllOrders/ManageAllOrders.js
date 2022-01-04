@@ -4,7 +4,7 @@ const ManageAllOrders = () => {
     const [orders, setOrders] = useState([]);
 
     useEffect( () => {
-        fetch(`http://localhost:5000/orders`)
+        fetch(`https://glacial-springs-00927.herokuapp.com/orders`)
         .then(res => res.json())
         .then(data => setOrders(data));
     }, []);
@@ -12,7 +12,7 @@ const ManageAllOrders = () => {
       const handleDelete = id => {
       const proceed = window.confirm('Are you sure, you want to remove this order?');      
       if(proceed){
-        const url = `http://localhost:5000/orders/${id}`;
+        const url = `https://glacial-springs-00927.herokuapp.com/orders/${id}`;
         fetch(url, {
           method: "DELETE",
         })
@@ -30,7 +30,7 @@ const ManageAllOrders = () => {
 
   // const status shipped
   const handleStatus = (id) => {
-    fetch(`http://localhost:5000/orders/${id}`, {
+    fetch(`https://glacial-springs-00927.herokuapp.com/orders/${id}`, {
       method: "PUT",
       headers: { "content-type": "application/json" },
     })
